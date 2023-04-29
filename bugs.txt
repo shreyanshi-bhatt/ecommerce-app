@@ -1,0 +1,5 @@
+1. The number of quantities displayed when surfed to another product remains same.
+eg. 2 headphones added to cart, now when you go to watch ... it default shows 2
+
+2. Direct buy now is not working
+
