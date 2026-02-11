@@ -2,15 +2,18 @@ import React from 'react'
 import {AiFillInstagram, AiOutlineTwitter} from 'react-icons/ai'
 
 const Footer = () => {
+  const year = new Date().getFullYear();
+
   return (
     <div className='footer-container'>
-      <p>2023 SBS Headphones All rights reserved</p>
+      <p>{year} SBS Headphones All rights reserved</p>
       <p className='icons'>
-        <AiFillInstagram></AiFillInstagram>
-        <AiOutlineTwitter></AiOutlineTwitter>
+        <AiFillInstagram />
+        <AiOutlineTwitter />
       </p>
     </div>
-  )
-}
+  );
+};
+
 
 export default Footer
